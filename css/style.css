@@ -1,0 +1,39 @@
+/* Author: arJun
+Date: */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+.main {
+    min-height: 100vh;
+}
+.main-1 {
+    min-height: 60vh;
+    width: 100%;
+    margin: 0;
+}
+.main-2 {
+    min-height: 40vh;
+    width: 100%;
+    margin: 0;
+}
+h1 {
+    font-weight: bolder;
+}
+.c-1 {
+    width: 80%;
+}
+.third {
+    min-height: 70vh;
+}
+@media screen and (max-width: 576px) {
+    .c {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .third-sub {
+        width: 100%;
+    }
+}
